@@ -15,37 +15,42 @@
     </nav>
     <main>
         <!-- Make sure to format, if format looks off, having prettier errors -->
-        <form method="GET">
-            <label for="firstname">First Name:</label>
-            <input type="text" name="firstname" /> <br />
-            <label for="lastname">Last Name:</label>
-            <input type="text" name="lasttname" /> <br />
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="" required /> <br />
-            <label for="password">Password:</label>
-            <input type="password" name="password" id="" min="5" /> <br />
-            <label for="birthday">Birthday:</label>
-            <input type="date" name="birthday" id="" /> <br />
-            <label for="gender">Gender:</label><br />
-            <input type="radio" name="gender" value="female" id="" /><label for="female">Female</label
-				><br />
-				<input type="radio" name="gender" value="male" id="" /><label for="male">Male</label
-				><br />
-				<input type="radio" name="gender" value="other" id="" /><label for="other"
-					>Other</label
-				><br />
-				Pets: <br />
-				<input type="checkbox" name="cat" id="" /><label for="cat">Cat</label> <br />
-            <input type="checkbox" name="dog" id="" /><label for="dog">Dog</label><br />
 
-            <select name="cars" id="">
-					<option value="volvo"><label for="volvo">Volvo</label></option>
-					<option value="Ford"><label for="ford">Ford</label></option>
-					<option value="Audi"><label for="audi">Audi</label></option>
-					<option value="BMW"><label for="bmw">BMW</label></option>
-				</select>
-            <br />
-            <input type="submit" value="Register!" /> <input type="reset" value="Reset" />
+        <form method="GET">
+            <fieldset>
+                <legend>Registration:</legend>
+                <label for="firstname">First Name:</label>
+                <input type="text" name="firstname" /> <br />
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="lasttname" /> <br />
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="" required /> <br />
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="" min="5" /> <br />
+                <label for="birthday">Birthday:</label>
+                <input type="date" name="birthday" id="" /> <br />
+                <label for="gender">Gender:</label><br />
+                <input type="radio" name="gender" value="female" id="" /><label for="female">Female</label
+					><br />
+					<input type="radio" name="gender" value="male" id="" /><label for="male"
+						>Male</label
+					><br />
+					<input type="radio" name="gender" value="other" id="" /><label for="other"
+						>Other</label
+					><br />
+					Pets: <br />
+					<input type="checkbox" name="cat" id="" /><label for="cat">Cat</label> <br />
+                <input type="checkbox" name="dog" id="" /><label for="dog">Dog</label><br />
+
+                <select name="cars" id="">
+						<option value="volvo"><label for="volvo">Volvo</label></option>
+						<option value="Ford"><label for="ford">Ford</label></option>
+						<option value="Audi"><label for="audi">Audi</label></option>
+						<option value="BMW"><label for="bmw">BMW</label></option>
+					</select>
+                <br />
+                <input type="submit" value="Register!" /> <input type="reset" value="Reset" />
+            </fieldset>
         </form>
     </main>
 </body>
